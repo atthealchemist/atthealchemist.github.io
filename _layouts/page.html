@@ -1,4 +1,18 @@
 ---
 layout: default
 ---
-{{ content }}
+<div class="container-lg markdown-body">
+
+    {% include header.html %}
+
+    {% include navigation.html %}
+
+    <main class="mx-3">
+        <div class="container">
+            {{ content }}
+        </div>
+    </main>
+
+    {% include footer.html %}
+    <div></div>
+</div>

@@ -1,5 +1,21 @@
 ---
-layout: page
+layout: default
 ---
-{{ sidebar_content }}
-{{ content }}
+<div class="container-lg markdown-body">
+
+    {% include header.html %}
+
+    {% include navigation.html %}
+
+    <main class="mx-3">
+        <div class="container">
+            {{ content }}
+        </div>
+        <div class="container">
+            {% include sidebar.html %}
+        </div>
+    </main>
+
+    {% include footer.html %}
+    <div></div>
+</div>

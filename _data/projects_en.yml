@@ -1,0 +1,17 @@
+- title: Graduation Project System
+  description: >-
+    Graduation project system description
+  url: https://github.com/atthealchemist/graduation-project-system
+  technologies:
+    - Python 3
+    - React
+    - Slate.js
+    - PostgreSQL 10
+
+- title: Flight schedule api
+  description: >-
+    Pobeda flight schedule api
+  url: https://github.com/atthealchemist/flight-schedule-api
+  technologies:
+  - Python 3
+  - FastAPI

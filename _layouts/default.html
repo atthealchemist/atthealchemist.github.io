@@ -12,23 +12,6 @@
     <title>{{site.title}}</title>
   </head>
   <body>
-    <div class="container-lg markdown-body">
-
-      {% include header.html %}
-
-      {% include navigation.html %}
-
-      <main class="mx-3">
-        <div class="container">
-          {{ content }}
-        </div>
-        <div class="container">
-          {% include sidebar.html %}
-        </div>
-      </main>
-
-      {% include footer.html %}
-      <div></div>
-    </div>
+    {{ content }}
   </body>
 </html>

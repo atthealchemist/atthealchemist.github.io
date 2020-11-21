@@ -142,3 +142,31 @@ aside img {
     font-size: smaller;
     color: #666;
 }
+
+.project {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0.5em;
+    margin: 1em;
+    width: 320px;
+}
+
+.project ul {
+    display: block;
+    padding: 0;
+    margin: 1em 0;
+}
+
+.project ul li {
+    display: inline-block;
+    margin: .25em;
+    padding: .5em;
+    color: #eee;
+    font-family: "Open Sans", sans-serif;
+    /*text-transform: uppercase;*/
+    font-size: x-small;
+    background-color: #2079c7;
+    border: 1px solid #2079c7;
+    border-radius: 1em;
+    cursor: pointer;
+}
