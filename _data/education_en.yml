@@ -1,0 +1,24 @@
+- title: Synergy University
+  city: Moscow
+  degree: Bachelor's degree
+  specialization: Information systems engineer
+  period:
+    from: 2016
+    to: 2020
+  graduation_project:
+    description: Knowledge management system
+    technologies:
+      - Python 3.8
+      - React
+
+- title: Moscow device-making technical college (MESI College)
+  city: Moscow
+  degree: Secondary special education
+  specialization: Information systems technican
+  period:
+    from: 2012
+    to: 2016
+  graduation_project:
+    description: Mobile application for iAuto Moscow LLC
+    technologies:
+      - Android 4.1
