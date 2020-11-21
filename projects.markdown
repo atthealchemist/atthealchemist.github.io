@@ -9,6 +9,7 @@ permalink: /projects/
 <div style="display: flex;">
     {% for project in site.data.projects_en %}
     <div class="project flex-column">
+        <img src="https://lorempixel.com/200/200" alt="Project image"/>
         <h4>{{ project.title }}</h4>
         <p>{{ project.description }}</p>
         <a href="{{ project.url }}">{{ project.url }}</a>

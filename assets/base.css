@@ -168,5 +168,9 @@ aside img {
     background-color: #2079c7;
     border: 1px solid #2079c7;
     border-radius: 1em;
-    cursor: pointer;
+    cursor: default;
+}
+
+.project img {
+    width: 300px;
 }
