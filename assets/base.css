@@ -50,7 +50,7 @@ aside {
     margin-left: 1em;
     padding: 1em;
     color: #666;
-    border-left: 1px solid gray;
+    border-left: 1px solid #ddd;
 }
 
 nav {
@@ -130,4 +130,8 @@ aside img {
 
 .contacts a:hover {
     opacity: .9;
+}
+
+.color-red {
+    color: red;
 }

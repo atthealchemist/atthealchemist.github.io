@@ -59,3 +59,11 @@ ready_for_relocation: true
 </p>
 </div>
 {% endfor %}
+
+### Repositories
+{% for repo in site.data.repos %}
+<div class="repository">
+    <p><strong>{{ repo.title }}</strong> - <a href="{{ repo.url }}">{{ repo.url }}</a></p>
+    <small>{{ repo.description }}</small>
+</div>
+{% endfor %}

@@ -13,11 +13,8 @@
   </head>
   <body>
     <div class="container-lg markdown-body">
-      {% if site.title and site.title != page.title %}
-        <div class="page-title">
-          <h1><a href="{{ '/' | absolute_url }}">{{ page.title }}</a></h1>
-        </div>
-      {% endif %}
+
+      {% include header.html %}
 
       {% include navigation.html %}
 
