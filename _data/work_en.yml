@@ -5,11 +5,11 @@
     from: 2019
     to: 2020
   tasks:
-    - Development of Python engine, agent and executor of RPA platform
+    - Development of Python engine, agent and executor of RPA platform.
     - Writing of Apache Kafka proxy service through REST API.
-    - Writing of Orchestrator's RDP Manager
-    - Researching in Mozilla Deep Speech, created vice-versa transcription library based on Mozilla Deep Speech
-    - A little bit of .NET platform enhancements
+    - Writing of Orchestrator's RDP Manager.
+    - Researching in Mozilla Deep Speech, created vice-versa transcription library based on Mozilla Deep Speech.
+    - A little bit of .NET platform enhancements.
 
 - title: Defence Group LLC
   position: Python developer

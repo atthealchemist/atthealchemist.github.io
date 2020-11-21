@@ -1,3 +1,46 @@
 <aside>
-    {{sidebar_content}}
+    <div class="photo">
+        <h3>My actual photo</h3>
+        <img src="assets/images/actual_photo.jpg" alt="My actual photo">
+    </div>
+    <div id="contact-me" class="contacts">
+        {% assign contacts = site.data.contacts_en %}
+        <h3>Contact me</h3>
+        <p><span>zip: </span>{{ contacts.zip }}</p>
+        <p><span>addr: </span>{{ contacts.address }}</p>
+        <p><span>tel: </span><a href="tel: {{ contacts.tel }}">{{ contacts.tel }}</a></p>
+        <p><span>tg: </span><a href="https://t.me/{{ contacts.tg }}">@{{ contacts.tg }}</a></p>
+        <p><span>mailto: </span><a href="mailto:{{ contacts.mailto }}">{{ contacts.mailto }}</a></p>
+    </div>
+    <div id="salary-expectations" class="salary">
+        <h3>Salary expectations</h3>
+        <ul>
+            {% for item in site.data.salary_en.per_day %}
+                <li><strong>{{ item }} / per day*</strong> </li>
+            {% endfor %}
+        </ul>
+        <small>*will be considered another variants
+            due to coronavirus situation</small>
+    </div>
+    <div id="technology-stack" class="stack">
+        <h3>Technology stack</h3>
+        {% for item in site.data.stack_en %}
+        <ul>
+            {% assign techs = item.technologies | join: ', ' %}
+            <li><span>{{item.title}}:</span> {{techs}}</li>
+        </ul>
+        {% endfor %}
+    </div>
+    <div id="certificates" class="certificates">
+        <h3>Certificates</h3>
+        {% for cert in site.data.certificates_en %}
+            <p><strong>{{ cert.title }} ({{ cert.year }})</strong></p>
+        {% endfor %}
+    </div>
+    <div id="languages" class="languages">
+        <h3>Languages</h3>
+        {% for lang in site.data.languages_en %}
+            <p>{{ lang.title }} - <em>{{ lang.level }}</em></p>
+        {% endfor %}
+    </div>
 </aside>

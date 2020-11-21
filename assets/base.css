@@ -47,6 +47,7 @@ main ul li {
 }
 
 aside {
+    margin-left: 1em;
     padding: 1em;
     color: #666;
     border-left: 1px solid gray;
@@ -54,13 +55,13 @@ aside {
 
 nav {
     width: 100%;
-    margin: 0 auto;
     padding: 1em 0;
+    margin-left: -1em;
 }
 
 nav ul {
     display: block;
-    padding-left: 0;
+    padding: 1em 0;
 }
 
 nav ul li {
@@ -75,6 +76,8 @@ nav ul li:first-child {
 }
 
 nav ul li a {
+    color: #2079c7;
+    font-weight: bold;
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
 }
@@ -85,5 +88,47 @@ nav ul li a:hover {
 }
 
 footer {
-    margin: 1em;
+    margin: 1em auto;
+}
+
+aside img {
+    width: 200px;
+    height: 280px;
+}
+
+.stack ul,
+.salary ul {
+    list-style: none;
+    margin-left: -2em;
+}
+
+.salary small {
+    display: block;
+    width: 160px;
+    color: #ccc;
+    font-size: 6.5pt;
+}
+
+.contacts,
+.stack,
+.certificates,
+.languages {
+    display: block;
+    width: 230px;
+}
+
+.stack span,
+.contacts span {
+    font-weight: bold;
+    color: #555;
+}
+
+.contacts a {
+    color: #666;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.contacts a:hover {
+    opacity: .9;
 }
