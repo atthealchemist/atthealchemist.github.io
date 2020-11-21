@@ -122,13 +122,15 @@ aside img {
     color: #555;
 }
 
-.contacts a {
+.contacts a,
+.repository a {
     color: #666;
     font-weight: bolder;
     text-decoration: none;
 }
 
-.contacts a:hover {
+.contacts a:hover,
+.repository a:hover {
     opacity: .9;
 }
 
