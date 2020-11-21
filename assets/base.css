@@ -137,3 +137,8 @@ aside img {
 .color-red {
     color: red;
 }
+
+.repository span {
+    font-size: smaller;
+    color: #666;
+}
