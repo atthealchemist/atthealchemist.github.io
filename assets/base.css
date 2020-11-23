@@ -152,6 +152,11 @@ aside img {
     font-family: "Open Sans", sans-serif;
 }
 
+h5 {
+    font-size: x-small;
+    color: #ddd;
+}
+
 .project ul {
     display: block;
     padding: 0;
@@ -174,6 +179,11 @@ aside img {
 
 .project img {
     width: 300px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
 }
 
 header h4 {
