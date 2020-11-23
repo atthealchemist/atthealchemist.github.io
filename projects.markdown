@@ -7,16 +7,14 @@ permalink: /projects/
 ### My Projects
 
 <div style="display: flex;">
-    {% for project in site.data.projects_en %}
+    {% for project in site.data.github %}
     <div class="project flex-column">
         <img src="https://lorempixel.com/200/200" alt="Project image"/>
-        <h4>{{ project.title }}</h4>
+        <h4>{{ project.name }}</h4>
         <p>{{ project.description }}</p>
-        <a href="{{ project.url }}">{{ project.url }}</a>
+        <a href="{{ project.html_url }}">{{ project.html_url }}</a>
         <ul>
-            {% for tech in project.technologies %}
-                <li>{{ tech }}</li>
-            {% endfor %}
+            <li>{{ project.language }}</li>
         </ul>
     </div>
     {% endfor %}
