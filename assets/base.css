@@ -20,7 +20,7 @@
 }
 
 .page-title a:hover {
-    opacity: .8;
+    opacity: 0.85;
     text-decoration: none;
 }
 
@@ -174,4 +174,8 @@ aside img {
 
 .project img {
     width: 300px;
+}
+
+header h4 {
+    color: #666;
 }
