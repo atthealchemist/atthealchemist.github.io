@@ -12,7 +12,7 @@ permalink: /projects/
 
 <div class="project-grid">
     {% for project in github %}
-        {% assign url = project.url %}
+        {% assign url = project.html_url %}
         {% if site.data.project_blacklist contains project.name %}
         {% else %}
             <div class="project flex-column">
