@@ -6,7 +6,7 @@ permalink: /projects/
 
 ### My Projects
 {% assign github = site.data.github | default: site.data.github_cache %}
-{% assign bitbucket = site.data.bitbucket.values | default: site.data.bitbucket_cache %}
+{% assign bitbucket = site.data.bitbucket.values | default: site.data.bitbucket_cache.values %}
 
 #### Github [{{ github | size }}]
 
