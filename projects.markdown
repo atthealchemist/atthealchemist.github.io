@@ -1,5 +1,6 @@
 ---
 layout: page
+language: en
 title: Projects
 permalink: /projects/
 ---
