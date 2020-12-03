@@ -1,6 +1,11 @@
 <header>
+  <div class="language-selector d-block mt-1 text-right">
+    {% for lang in site.languages %}
+      <a class="site-language" href="/{{ lang | prepend: site.baseurl_root }}">{{ lang | capitalize }}</a>
+    {% endfor %}
+  </div>
   <div class="page-title">
-    <h1><a href="{{ '/' | absolute_url }}">{{ site.title }}</a></h1>
-    <h4>{{ site.description }}</h4>
+    <h1><a href="{{ '/' | absolute_url }}">{% t pages.index.header.title %}</a></h1>
+    <h4>{% t pages.index.header.description %}</h4>
   </div>
 </header>

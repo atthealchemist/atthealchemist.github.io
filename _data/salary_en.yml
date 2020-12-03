@@ -1,4 +1,11 @@
-per_day:
-  - 150 - 200 $
-  - 140 - 170 €
-  - 150 - 200 £
+salary:
+  en:
+    - value: 150 - 200 $
+      period: day
+    - value: 140 - 170 €
+      period: day
+    - value: 150 - 200 £
+      period: day
+  ru:
+    - value: 140+ тыс. руб.
+      period: мес.

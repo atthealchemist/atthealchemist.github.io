@@ -27,8 +27,12 @@ url: "https://atthealchemist.github.io" # the base hostname & protocol for your 
 tg_username: atthealchemist
 github_username:  atthealchemist
 
+languages: ["ru", "en", "de"]
+default_locale_in_subfolder: true
+
 plugins:
   - jekyll-get-json
+  - jekyll-multiple-languages-plugin
 
 # Build settings
 theme: jekyll-theme-primer

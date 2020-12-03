@@ -1,21 +1,13 @@
----
-layout: home
-language: en
-title: Konev Alexey Sergeevich
-age: 24
-experience_in_years: 6
-ready_for_relocation: true
----
 <div class="basic-info">
     <p>
-        <strong>Male, {{ page.age }} y.o.</strong><br>
-        <strong>Total IT work experience - {{ page.experience_in_years }} years</strong><br>
-        <strong>{% if page.ready_for_relocation %} Ready {% else %} Not ready {% endif %} for relocation, but rather prefer remote work</strong>
+        <strong>{% t pages.index.header.sex %}, {% t pages.index.header.age %}</strong><br>
+        <strong>{% t pages.index.header.work_experience_label %} - {% t pages.index.header.work_experience_value %}</strong><br>
+        <strong>{% if site.data.about_ru.ready_for_relocation == 'true' %} {% t pages.index.header.ready %} {% else %} {% t pages.index.header.not_ready %} {% endif %} {% t pages.index.header.ready_for_relocation %}</strong>
     </p>
 </div>
 
-### About me
-{% for criteria in site.data.about_en %}
+### {% t pages.index.content.about_me %}
+{% for criteria in site.data.about_en.criteria %}
 
 <div class="criteria">
     <h4>{{ criteria.title }}</h4>
@@ -28,7 +20,7 @@ ready_for_relocation: true
 
 {% endfor %}
 
-### My jobs
+### {% t pages.index.content.my_jobs %}
 {% for place in site.data.work_en %}
 
 <div class="work-place">
@@ -46,7 +38,7 @@ ready_for_relocation: true
 
 {% endfor %}
 
-### Education
+### {% t pages.index.content.education %}
 {% for place in site.data.education_en %}
 <div class="education">
     <h4>
@@ -60,7 +52,7 @@ ready_for_relocation: true
 </div>
 {% endfor %}
 
-### Repositories
+### {% t pages.index.content.repositories %}
 {% for repo in site.data.repos_en %}
 <div class="repository">
     <h4>{{ repo.title }} - <a href="{{ repo.url }}">{{ repo.url }}</a></h4>

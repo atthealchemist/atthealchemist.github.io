@@ -1,0 +1,57 @@
+pages:
+  navigation:
+    about_me: Über mich
+    jobs: Arbeit
+    education: Bildung
+    repositories: Repositories
+    contacts: Kontakte
+    technology_stack: Technologie-Stack
+    projects: Projekte
+  index:
+    header:
+      title: Alexey Konev
+      description: 24 j.a. Software-entwickler mit leuchtend <span class="color-red">roten</span> Augen
+      sex: Mann
+      age: 24 Jahre alt
+      work_experience_label: Gesamtarbeitserfahrung in IT
+      work_experience_value: 6 Jahren
+      ready: Bereit
+      not_ready: Keine bereit
+      ready_for_relocation: zum Umzug, aber lieber aus der Ferne arbeiten
+    content:
+      about_me: Über mich
+      my_jobs: Arbeit
+      education: Bildung
+      repositories: Mein Repositories
+    sidebar:
+      photo_section:
+        photo_title: Mein Foto
+      contact_section:
+        contact_title: Kontakte
+        zip_label: PLZ
+        addr_label: Adresse
+        addr_value: Russland, Region Moskau, Naro-Fominsk, st. Voikova, 25, apt. 20
+        tel_label: Telefon
+        tg_label: Telegram
+        mailto_label: E-Mail
+      salary_section:
+        salary_title: Gehaltsvorstellungen
+        salary_per_day_label: am Tag
+        salary_mark: Im Zusammenhang mit der Situation mit Coronavirus bin ich bereit, andere Optionen in Betracht zu ziehen
+      stack_section:
+        stack_title: Technologie-Stack
+      cert_section:
+        cert_title: Zertifikate
+      lang_section:
+        lang_title: Sprachen
+        lang_ru:
+          title: Russische
+          level: Muttersprache
+        lang_en:
+          title: Englisch
+          level: Upper-Intermediate (Pre-Advanced)
+        lang_de:
+          title: Deutsch
+          level: A1
+  projects:
+    title: meine Projekte

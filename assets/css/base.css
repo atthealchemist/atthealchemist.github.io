@@ -1,3 +1,5 @@
+@import url('fonts.css');
+
 * {
     margin: 0;
     padding: 0;
@@ -188,4 +190,9 @@ h5 {
 
 header h4 {
     color: #666;
+}
+
+.site-language:active {
+    color: red;
+    text-decoration: underline;
 }

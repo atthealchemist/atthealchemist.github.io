@@ -1,12 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d64db84-4531-4f42-b7f1-cb8905fc4788" name="Default Changelist" comment="Changed font for project card to sans-serif">
+    <list default="true" id="8d64db84-4531-4f42-b7f1-cb8905fc4788" name="Default Changelist" comment="Increasing project card side padding">
+      <change afterPath="$PROJECT_DIR$/_data/about_de.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_data/about_ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_data/contacts_ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_data/education_ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_data/languages.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_data/repos_ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_data/stack_ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_i18n/de.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_i18n/de/projects/projects.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_i18n/en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_i18n/en/index/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_i18n/en/projects/projects.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_i18n/ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_i18n/ru/index/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_i18n/ru/projects/projects.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/about_en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/about_en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/salary_en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/salary_en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/navigation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/de/index/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.markdown" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +42,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -26,7 +53,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kbB617Rr8OSfkTXQFKyoXeTw40" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,10 +79,17 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io\_data" />
-      <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io" />
+      <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io\_i18n\ru\index" />
+      <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io\_i18n\ru" />
+      <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io\_i18n\en" />
+      <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io\_i18n\de" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io\_includes" />
+      <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io\_i18n\ru" />
+      <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io\_i18n\ru\index" />
+      <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io\assets\css" />
+      <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io" />
+      <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io\pages\ru" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,7 +101,12 @@
       <option name="presentableId" value="Default" />
       <updated>1605959231563</updated>
       <workItem from="1605959232712" duration="25255000" />
-      <workItem from="1606143250733" duration="49000" />
+      <workItem from="1606143250733" duration="7567000" />
+      <workItem from="1606718274420" duration="3100000" />
+      <workItem from="1606729171544" duration="5000" />
+      <workItem from="1606737606542" duration="1227000" />
+      <workItem from="1606894930698" duration="11872000" />
+      <workItem from="1606985417453" duration="10812000" />
     </task>
     <task id="LOCAL-00001" summary="Added basic jekyll generated site">
       <created>1605960752988</created>
@@ -235,7 +276,70 @@
       <option name="project" value="LOCAL" />
       <updated>1605983929731</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Trying to fixing links to be accessible from /projects">
+      <created>1606143360524</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1606143360524</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Trying to fixing links to be accessible from /projects">
+      <created>1606143614832</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1606143614832</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Getting projects from github">
+      <created>1606145084059</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1606145084059</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Getting projects from github and bitbucket, saved to cache">
+      <created>1606149914746</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1606149914746</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Getting projects from github and bitbucket, saved to cache">
+      <created>1606149960543</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1606149960543</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Getting projects from github and bitbucket, saved to cache">
+      <created>1606150208552</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1606150208552</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Fixing github project link">
+      <created>1606150749164</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1606150749164</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Small word change">
+      <created>1606718352597</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1606718352597</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Increasing project card side padding">
+      <created>1606721163173</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1606721163173</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,8 +358,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added basic jekyll generated site" />
-    <MESSAGE value="Basic config changes" />
     <MESSAGE value="Starting customizing theme" />
     <MESSAGE value="Restoring includes" />
     <MESSAGE value="Restoring all site, change the theme" />
@@ -275,6 +377,12 @@
     <MESSAGE value="Added projects" />
     <MESSAGE value="Small markup fixes" />
     <MESSAGE value="Changed font for project card to sans-serif" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed font for project card to sans-serif" />
+    <MESSAGE value="Trying to fixing links to be accessible from /projects" />
+    <MESSAGE value="Getting projects from github" />
+    <MESSAGE value="Getting projects from github and bitbucket, saved to cache" />
+    <MESSAGE value="Fixing github project link" />
+    <MESSAGE value="Small word change" />
+    <MESSAGE value="Increasing project card side padding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Increasing project card side padding" />
   </component>
 </project>

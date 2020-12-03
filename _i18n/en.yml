@@ -1,0 +1,57 @@
+pages:
+  navigation:
+    about_me: Обо мне
+    jobs: Работа
+    education: Образование
+    repositories: Репозитории
+    contacts: Контакты
+    technology_stack: Стек технологий
+    projects: Проекты
+  index:
+    header:
+      title: Konev Alexey Sergeevich
+      description: 24 y.o. developer with glowing <span color="color-red">red</span> eyes
+      sex: Male
+      age: 24 y.o.
+      work_experience_label: Total IT work experience
+      work_experience_value: 6 years
+      ready: Ready
+      not_ready: Not ready
+      ready_for_relocation: for relocation, but prefer remote work
+    content:
+      about_me: Обо мне
+      my_jobs: Работа
+      education: Образование
+      repositories: Мои репозитории
+    sidebar:
+      photo_section:
+        photo_title: Моя фотография
+      contact_section:
+        contact_title: Контакты
+        zip_label: Почтовый индекс
+        addr_label: Адрес
+        tel_label: Телефон
+        tg_label: Telegram
+        mailto_label: Почта
+      salary_section:
+        salary_title: Зарплатные ожидания
+        salary_per_day_label: в день
+        salary_mark: В связи с ситуацией с короновирусом готов рассмотреть и другие варианты
+      stack_section:
+        stack_title: Стек технологий
+      cert_section:
+        cert_title: Сертификаты
+      lang_section:
+        lang_title: Языки
+        lang_ru:
+          title: Russian
+          level: Native
+        lang_en:
+          title: English
+          level: Upper-Intermediate (Pre-Advanced)
+        lang_de:
+          title: Deutsch
+          level: A1
+  projects:
+    title: Projects
+

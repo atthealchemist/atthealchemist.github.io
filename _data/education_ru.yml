@@ -1,0 +1,24 @@
+- title: Университет Синергия
+  city: Москва
+  degree: Бакалавриат
+  specialization: Инженер по информационным системам
+  period:
+    from: 2016
+    to: 2020
+  graduation_project:
+    description: Система управления знаниями
+    technologies:
+      - Python 3.8
+      - React
+
+- title: Московский приборостроительный техникум (Колледж МЭСИ)
+  city: Москва
+  degree: Среднее специальное образование
+  specialization: Техник по информационным системам
+  period:
+    from: 2012
+    to: 2016
+  graduation_project:
+    description: Мобильное приложение для ООО "iAuto Москва"
+    technologies:
+      - Android 4.1

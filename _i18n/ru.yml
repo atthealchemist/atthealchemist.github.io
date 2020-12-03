@@ -1,0 +1,59 @@
+pages:
+  navigation:
+    about_me: Обо мне
+    jobs: Работа
+    education: Образование
+    repositories: Репозитории
+    contacts: Контакты
+    technology_stack: Стек технологий
+    projects: Проекты
+
+  index:
+    header:
+      title: Конев Алексей Сергеевич
+      description: 24 летний разработчик с горящими <span class="color-red">красными</span> глазами
+      sex: Мужчина
+      age: 24 года
+      work_experience_label: Общий стаж работы в IT
+      work_experience_value: 6 лет
+      ready: Готов
+      not_ready: Не готов
+      ready_for_relocation: к релокации, однако предпочитаю удалённую работу
+    content:
+      about_me: Обо мне
+      my_jobs: Работа
+      education: Образование
+      repositories: Мои репозитории
+    sidebar:
+      photo_section:
+        photo_title: Моя фотография
+      contact_section:
+        contact_title: Контакты
+        zip_label: Почтовый индекс
+        addr_label: Адрес
+        addr_value: Россия, Московская обл., г. Наро-Фоминск, ул. Войкова, д. 25, кв. 20
+        tel_label: Телефон
+        tg_label: Telegram
+        mailto_label: Почта
+      salary_section:
+        salary_title: Зарплатные ожидания
+        salary_per_day_label: в день
+        salary_mark: В связи с ситуацией с короновирусом готов рассмотреть и другие варианты
+      stack_section:
+        stack_title: Стек технологий
+      cert_section:
+        cert_title: Сертификаты
+      lang_section:
+        lang_title: Языки
+        lang_ru:
+          title: Русский
+          level: Родной
+        lang_en:
+          title: Английский
+          level: Upper-Intermediate (Pre-Advanced)
+        lang_de:
+          title: Немецкий
+          level: A1
+  projects:
+    title: Мои проекты
+    legacy: Устаревшие

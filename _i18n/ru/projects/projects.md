@@ -1,15 +1,8 @@
----
-layout: page
-language: en
-title: Projects
-permalink: /projects/
----
-
-### My Projects
+<h3>{% t pages.projects.title %}</h3>
 {% assign github = site.data.github | default: site.data.github_cache %}
 {% assign bitbucket = site.data.bitbucket.values | default: site.data.bitbucket_cache.values %}
 
-#### Github [{{ github | size }}]
+<h4>Github [{{ github | size }}]</h4>
 
 <div class="project-grid">
     {% for project in github %}
@@ -29,7 +22,7 @@ permalink: /projects/
 </div>
 
 #### Bitbucket [{{ bitbucket | size }}]
-##### (Legacy)
+##### ({% t pages.projects.legacy %})
 
 <div class="project-grid">
     {% for project in bitbucket %}
@@ -47,4 +40,3 @@ permalink: /projects/
             {% endif %}
     {% endfor %}
 </div>
-
