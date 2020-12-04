@@ -2,12 +2,13 @@
     <p>
         <strong>{% t pages.index.header.sex %}, {% t pages.index.header.age %}</strong><br>
         <strong>{% t pages.index.header.work_experience_label %} - {% t pages.index.header.work_experience_value %}</strong><br>
-        <strong>{% if site.data.about_ru.ready_for_relocation == 'true' %} {% t pages.index.header.ready %} {% else %} {% t pages.index.header.not_ready %} {% endif %} {% t pages.index.header.ready_for_relocation %}</strong>
+        <strong>{% if site.ready_for_relocation %} {% t pages.index.header.ready %} {% else %} {% t pages.index.header.not_ready %} {% endif %} {% t pages.index.header.ready_for_relocation %}</strong>
     </p>
 </div>
 
 ### {% t pages.index.content.about_me %}
-{% for criteria in site.data.about_en.criteria %}
+{% assign about_me = site.data.about.about[site.lang] %}
+{% for criteria in about_me.criteria %}
 
 <div class="criteria">
     <h4>{{ criteria.title }}</h4>
@@ -21,7 +22,7 @@
 {% endfor %}
 
 ### {% t pages.index.content.my_jobs %}
-{% for place in site.data.work_en %}
+{% for place in site.data.jobs.jobs[site.lang] %}
 
 <div class="work-place">
     <h4>
@@ -38,8 +39,8 @@
 
 {% endfor %}
 
-### {% t pages.index.content.education %}
-{% for place in site.data.education_en %}
+### {% t pages.index.content.education.title %}
+{% for place in site.data.education.education[site.lang] %}
 <div class="education">
     <h4>
         <strong>{{ place.title }}</strong>, {{ place.city }} - 
@@ -47,15 +48,15 @@
     </h4>
     <p>{{ place.period.from }} - {{ place.period.to }}</p>
     {% assign techs = place.graduation_project.technologies | join: ', ' %}
-    <p><strong>Graduation project</strong> - {{ place.graduation_project.description }} ({{ techs }})
+    <p><strong>{% t pages.index.content.education.graduation_project %}</strong> - {{ place.graduation_project.description }} ({{ techs }})
 </p>
 </div>
 {% endfor %}
 
-### {% t pages.index.content.repositories %}
-{% for repo in site.data.repos_en %}
+### {% t pages.index.content.repositories.title %}
+{% for repo in site.data.repositories %}
 <div class="repository">
     <h4>{{ repo.title }} - <a href="{{ repo.url }}">{{ repo.url }}</a></h4>
-    <span>{{ repo.description }}</span>
+    <span>{% t repo.description %}</span>
 </div>
 {% endfor %}

@@ -1,0 +1,6 @@
+- title: Github
+  url: https://github.com/atthealchemist
+  description: "pages.index.content.repositories.github.description"
+- title: Bitbucket
+  url: https://bitbucket.org/the-alchemist
+  description: "pages.index.content.repositories.bitbucket.description"

@@ -21,8 +21,15 @@ pages:
     content:
       about_me: Über mich
       my_jobs: Arbeit
-      education: Bildung
-      repositories: Mein Repositories
+      education:
+        title: Education
+        graduation_project: Abschlussprojekt
+      repositories:
+        title: Mein Repositories
+        github:
+          description: <strong>Primäres Repository</strong> - Maine Home- und Pet-Projekte.
+        bitbucket:
+          description: <strong>Vermächtnis repository</strong> - Maine Home- und Pet-Projekte.
     sidebar:
       photo_section:
         photo_title: Mein Foto
@@ -33,6 +40,7 @@ pages:
         addr_value: Russland, Region Moskau, Naro-Fominsk, st. Voikova, 25, apt. 20
         tel_label: Telefon
         tg_label: Telegram
+        inst_label: Instagram
         mailto_label: E-Mail
       salary_section:
         salary_title: Gehaltsvorstellungen
@@ -40,12 +48,24 @@ pages:
         salary_mark: Im Zusammenhang mit der Situation mit Coronavirus bin ich bereit, andere Optionen in Betracht zu ziehen
       stack_section:
         stack_title: Technologie-Stack
+        stack_groups:
+          group_programming_langs: PSn
+          group_user_interfaces: UIs
+          group_web: Web
+          group_servers: Servers
+          group_dbs: DBs
+          group_mqs: MQs
+          group_frontend: Frontend
+          group_apis: APIs
+          group_os: OSs
+          group_ci: CI/CD
+          group_mobile: Mobile Anwendungen
       cert_section:
         cert_title: Zertifikate
       lang_section:
         lang_title: Sprachen
         lang_ru:
-          title: Russische
+          title: Russisch
           level: Muttersprache
         lang_en:
           title: Englisch
@@ -54,4 +74,5 @@ pages:
           title: Deutsch
           level: A1
   projects:
-    title: meine Projekte
+    title: Meine Projekte
+    legacy: Vermächtnis

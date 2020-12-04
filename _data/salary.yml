@@ -1,4 +1,7 @@
 salary:
+  de:
+    - value: 3000 €
+      period: mo
   en:
     - value: 150 - 200 $
       period: day

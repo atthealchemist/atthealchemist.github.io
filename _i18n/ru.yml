@@ -18,12 +18,19 @@ pages:
       work_experience_value: 6 лет
       ready: Готов
       not_ready: Не готов
-      ready_for_relocation: к релокации, однако предпочитаю удалённую работу
+      ready_for_relocation: к релокации, предпочитаю удалённую работу
     content:
       about_me: Обо мне
       my_jobs: Работа
-      education: Образование
-      repositories: Мои репозитории
+      education:
+        title: Education
+        graduation_project: Дипломный проект
+      repositories:
+        title: Мои репозитории
+        github:
+          description: <strong>Основной репозиторий</strong> - мои домашние и учебные проекты.
+        bitbucket:
+          description: <strong>Старый репозиторий</strong> - мои домашние и учебные проекты.
     sidebar:
       photo_section:
         photo_title: Моя фотография
@@ -34,6 +41,7 @@ pages:
         addr_value: Россия, Московская обл., г. Наро-Фоминск, ул. Войкова, д. 25, кв. 20
         tel_label: Телефон
         tg_label: Telegram
+        inst_label: Instagram
         mailto_label: Почта
       salary_section:
         salary_title: Зарплатные ожидания
@@ -41,6 +49,18 @@ pages:
         salary_mark: В связи с ситуацией с короновирусом готов рассмотреть и другие варианты
       stack_section:
         stack_title: Стек технологий
+        stack_groups:
+          group_programming_langs: Языки программирования
+          group_user_interfaces: Разработка пользовательских интерфейсов
+          group_web: Разработка веб-приложений
+          group_servers: Серверы
+          group_dbs: Базы данных
+          group_mqs: Очереди сообщений
+          group_frontend: Фронтэнд
+          group_apis: APIs
+          group_os: Операционные системы
+          group_ci: CI/CD
+          group_mobile: Мобильные приложения
       cert_section:
         cert_title: Сертификаты
       lang_section:

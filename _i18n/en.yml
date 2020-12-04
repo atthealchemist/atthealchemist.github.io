@@ -1,16 +1,16 @@
 pages:
   navigation:
-    about_me: Обо мне
-    jobs: Работа
-    education: Образование
-    repositories: Репозитории
-    contacts: Контакты
-    technology_stack: Стек технологий
-    projects: Проекты
+    about_me: About me
+    jobs: Jobs
+    education: Education
+    repositories: Repositories
+    contacts: Contacts
+    technology_stack: Technology stack
+    projects: Projects
   index:
     header:
-      title: Konev Alexey Sergeevich
-      description: 24 y.o. developer with glowing <span color="color-red">red</span> eyes
+      title: Alexey Konev
+      description: 24 y.o. developer with glowing <span class="color-red">red</span> eyes
       sex: Male
       age: 24 y.o.
       work_experience_label: Total IT work experience
@@ -19,30 +19,51 @@ pages:
       not_ready: Not ready
       ready_for_relocation: for relocation, but prefer remote work
     content:
-      about_me: Обо мне
-      my_jobs: Работа
-      education: Образование
-      repositories: Мои репозитории
+      about_me: About me
+      my_jobs: Jobs
+      education:
+        title: Education
+        graduation_project: Graduation project
+      repositories:
+        title: Repositories
+        github:
+          description: <strong>Primary reposoitory</strong> - mine home- and pet-projects.
+        bitbucket:
+          description: <strong>Legacy repository</strong> - mine home- and pet-projects.
     sidebar:
       photo_section:
-        photo_title: Моя фотография
+        photo_title: My actual photo
       contact_section:
-        contact_title: Контакты
-        zip_label: Почтовый индекс
-        addr_label: Адрес
-        tel_label: Телефон
+        contact_title: Contacts
+        zip_label: Zip code
+        addr_label: Address
+        addr_value: Russia, Moscow district, Naro-Fominsk, Voikova st. 25, 20
+        tel_label: Phone
         tg_label: Telegram
-        mailto_label: Почта
+        inst_label: Instagram
+        mailto_label: E-mail
       salary_section:
-        salary_title: Зарплатные ожидания
-        salary_per_day_label: в день
-        salary_mark: В связи с ситуацией с короновирусом готов рассмотреть и другие варианты
+        salary_title: Salary expectations
+        salary_per_day_label: per day
+        salary_mark: will be considered another variants due to coronavirus situation
       stack_section:
-        stack_title: Стек технологий
+        stack_title: Technology stack
+        stack_groups:
+          group_programming_langs: PLs
+          group_user_interfaces: UIs
+          group_web: Web
+          group_servers: Servers
+          group_dbs: DBs
+          group_mqs: MQs
+          group_frontend: Frontend
+          group_apis: APIs
+          group_os: OSs
+          group_ci: CI/CD
+          group_mobile: Mobile
       cert_section:
-        cert_title: Сертификаты
+        cert_title: Certificates
       lang_section:
-        lang_title: Языки
+        lang_title: Languages
         lang_ru:
           title: Russian
           level: Native
@@ -54,4 +75,6 @@ pages:
           level: A1
   projects:
     title: Projects
+    legacy: Legacy
+
 

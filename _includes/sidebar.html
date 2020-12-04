@@ -4,18 +4,19 @@
         <img src="assets/images/actual_photo.jpg" alt="{% t pages.index.sidebar.photo_section.photo_title %}">
     </div>
     <div id="contact-me" class="contacts">
-        {% assign contacts = site.data.contacts_en %}
+        {% assign contacts = site.data.contacts.contacts[site.lang] %}
         <h3>{% t pages.index.sidebar.contact_section.contact_title %}</h3>
         <p><span>{% t pages.index.sidebar.contact_section.zip_label %}: </span>{{ contacts.zip }}</p>
         <p><span>{% t pages.index.sidebar.contact_section.addr_label %}: </span>{% t pages.index.sidebar.contact_section.addr_value %}</p>
         <p><span>{% t pages.index.sidebar.contact_section.tel_label %}: </span><a href="tel: {{ contacts.tel }}">{{ contacts.tel }}</a></p>
         <p><span>{% t pages.index.sidebar.contact_section.tg_label %}: </span><a href="https://t.me/{{ contacts.tg }}">@{{ contacts.tg }}</a></p>
         <p><span>{% t pages.index.sidebar.contact_section.mailto_label %}: </span><a href="mailto:{{ contacts.mailto }}">{{ contacts.mailto }}</a></p>
+        <p><span>{% t pages.index.sidebar.contact_section.inst_label %}: </span><a href="https://instagram.com/{{ contacts.inst }}">{{ contacts.inst }}</a></p>
     </div>
     <div id="salary-expectations" class="salary">
         <h3>{% t pages.index.sidebar.salary_section.salary_title %}</h3>
         <ul>
-            {% for item in site.data.salary_en.salary.ru %}
+            {% for item in site.data.salary.salary[site.lang] %}
                 <li><strong>{{ item.value }} / {{ item.period }}*</strong> </li>
             {% endfor %}
         </ul>
@@ -23,16 +24,19 @@
     </div>
     <div id="technology-stack" class="stack">
         <h3>{% t pages.index.sidebar.stack_section.stack_title %}</h3>
-        {% for item in site.data.stack_en %}
+        {% for item in site.data.stack.stack_full %}
         <ul>
             {% assign techs = item.technologies | join: ', ' %}
-            <li><span>{{item.title}}:</span> {{techs}}</li>
+            <li>
+                <span>{% t item.title %}:</span>
+                <p>{{ techs }}</p>
+            </li>
         </ul>
         {% endfor %}
     </div>
     <div id="certificates" class="certificates">
         <h3>{% t pages.index.sidebar.cert_section.cert_title %}</h3>
-        {% for cert in site.data.certificates_en %}
+        {% for cert in site.data.certificates %}
             <p><strong>{{ cert.title }} ({{ cert.year }})</strong></p>
         {% endfor %}
     </div>

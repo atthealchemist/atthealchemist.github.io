@@ -1,0 +1,73 @@
+education:
+  en:
+    - title: Synergy University
+      city: Moscow
+      degree: Bachelor's degree
+      specialization: Information systems engineer
+      period:
+        from: 2016
+        to: 2020
+      graduation_project:
+        description: Knowledge management system
+        technologies:
+          - Python 3.8
+          - React
+    - title: Moscow device-making technical college (MESI College)
+      city: Moscow
+      degree: Secondary special education
+      specialization: Information systems technican
+      period:
+        from: 2012
+        to: 2016
+      graduation_project:
+        description: Mobile application for iAuto Moscow LLC
+        technologies:
+          - Android 4.1
+  ru:
+    - title: Университет Синергия
+      city: Москва
+      degree: Бакалавриат
+      specialization: Инженер по информационным системам
+      period:
+        from: 2016
+        to: 2020
+      graduation_project:
+        description: Система управления знаниями
+        technologies:
+          - Python 3.8
+          - React
+    - title: Московский приборостроительный техникум (Колледж МЭСИ)
+      city: Москва
+      degree: Среднее специальное образование
+      specialization: Техник по информационным системам
+      period:
+        from: 2012
+        to: 2016
+      graduation_project:
+        description: Мобильное приложение для ООО "iAuto Москва"
+        technologies:
+          - Android 4.1
+  de:
+    - title: Synergy Universitat
+      city: Moskau
+      degree: Bakkalaureus
+      specialization: Ingenieur für Informationssysteme
+      period:
+        from: 2016
+        to: 2020
+      graduation_project:
+        description: Wissensmanagementsystem
+        technologies:
+          - Python 3.8
+          - React
+    - title: Technische Schule für Instrumentenbau in Moskau (College MESI)
+      city: Moskau
+      degree: Sekundäre Sonderpädagogik
+      specialization: Techniker für Informationssysteme
+      period:
+        from: 2012
+        to: 2016
+      graduation_project:
+        description: Mobile Anwendung für LLC "iAuto Moskau"
+        technologies:
+          - Android 4.1

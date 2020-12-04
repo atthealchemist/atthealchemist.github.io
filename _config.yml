@@ -26,6 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://atthealchemist.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 tg_username: atthealchemist
 github_username:  atthealchemist
+ready_for_relocation: true
 
 languages: ["ru", "en", "de"]
 default_locale_in_subfolder: true
