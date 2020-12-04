@@ -7,4 +7,4 @@ jobs:
       - uses: actions/checkout@v2
       - uses: EdricChan03/action-build-deploy-ghpages@v2.5.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: a24a246f59d1469d2fc4224385c4a333c5cdad3f
