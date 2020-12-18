@@ -11,9 +11,9 @@
         {% endif %}
 
         {% if site.languages contains parent %}
-            <a class="site-language" href="/{{ lang | prepend: site.baseurl_root }}">{{ flag }}</a>
+            <a class="site-language" href="/{{ lang | prepend: site.baseurl_root }}/">{{ flag }}</a>
         {% else %}
-            <a class="site-language" href="/{{ lang | prepend: site.baseurl_root }}/{{parent}}">{{ flag }}</a>
+            <a class="site-language" href="/{{ lang | prepend: site.baseurl_root }}/{{parent}}/">{{ flag }}</a>
         {% endif %}
 
     {% endfor %}
