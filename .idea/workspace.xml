@@ -1,30 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d64db84-4531-4f42-b7f1-cb8905fc4788" name="Default Changelist" comment="Increasing project card side padding">
-      <change afterPath="$PROJECT_DIR$/assets/css/media.css" afterDir="false" />
+    <list default="true" id="8d64db84-4531-4f42-b7f1-cb8905fc4788" name="Default Changelist" comment="Починил навигацию, локализация работает, флажки вместо букв">
+      <change afterPath="$PROJECT_DIR$/_includes/locale.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/de/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/de/projects.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/en/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/ru/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/ru/projects.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/contacts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/contacts.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/languages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/languages.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/repositories.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/repositories.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/stack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/stack.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/de.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/i18n/de.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/de/index/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/de/projects/projects.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/i18n/en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/en/index/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/en/projects/projects.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/i18n/ru.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/ru/index/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/ru/projects/projects.md" beforeDir="false" afterPath="$PROJECT_DIR$/projects.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/navigation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/en/projects.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -57,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/ru" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -70,18 +64,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages/ru" />
+      <recent name="$PROJECT_DIR$/pages/en" />
       <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io\_data" />
       <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io\_i18n\ru\index" />
       <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io\_i18n\ru" />
-      <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io\_i18n\en" />
-      <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io\_i18n\de" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/_data/internationalization" />
       <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io\_i18n\ru" />
       <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io\_i18n\ru\index" />
-      <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io\assets\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -99,7 +93,7 @@
       <workItem from="1606737606542" duration="1227000" />
       <workItem from="1606894930698" duration="11872000" />
       <workItem from="1606985417453" duration="10812000" />
-      <workItem from="1608275608837" duration="6437000" />
+      <workItem from="1608275608837" duration="11796000" />
     </task>
     <task id="LOCAL-00001" summary="Added basic jekyll generated site">
       <created>1605960752988</created>
@@ -332,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606721163173</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Убрал multiple-languages плагин&#10;Сделал версию стилей, оптимизированную для печати&#10;Перенёс всю i18n в yml">
+      <created>1608282508344</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1608282508344</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,8 +352,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Starting customizing theme" />
-    <MESSAGE value="Restoring includes" />
     <MESSAGE value="Restoring all site, change the theme" />
     <MESSAGE value="Moving theme contents into site folder" />
     <MESSAGE value="Trying to change site contents" />
@@ -376,6 +375,8 @@
     <MESSAGE value="Fixing github project link" />
     <MESSAGE value="Small word change" />
     <MESSAGE value="Increasing project card side padding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Increasing project card side padding" />
+    <MESSAGE value="Убрал multiple-languages плагин&#10;Сделал версию стилей, оптимизированную для печати&#10;Перенёс всю i18n в yml" />
+    <MESSAGE value="Починил навигацию, локализация работает, флажки вместо букв" />
+    <option name="LAST_COMMIT_MESSAGE" value="Починил навигацию, локализация работает, флажки вместо букв" />
   </component>
 </project>

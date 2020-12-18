@@ -1,0 +1,20 @@
+<div class="language-selector d-block mt-1 text-right">
+    {% assign parent = page.url | split: '/' | last %}
+    {% for lang in site.languages %}
+
+        {% if lang == 'ru' %}
+            {% assign flag = '🇷🇺' %}
+        {% elsif lang == 'en' %}
+            {% assign flag = '🇺🇸' %}
+        {% elsif lang == 'de' %}
+            {% assign flag = '🇩🇪' %}
+        {% endif %}
+
+        {% if site.languages contains parent %}
+            <a class="site-language" href="/{{ lang | prepend: site.baseurl_root }}">{{ flag }}</a>
+        {% else %}
+            <a class="site-language" href="/{{ lang | prepend: site.baseurl_root }}/{{parent}}">{{ flag }}</a>
+        {% endif %}
+
+    {% endfor %}
+</div>

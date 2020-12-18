@@ -1,9 +1,10 @@
 ---
 layout: page
+lang: en
 title: Projects
-permalink: /projects/
+permalink: /en/projects/
 ---
-{% assign projects_i18n = site.data.i18n[site.lang].pages.projects %}
+{% assign projects_i18n = site.data.i18n[page.lang].pages.projects %}
 <h3>{{ projects_i18n.title }}</h3>
 {% assign github = site.data.github | default: site.data.github_cache %}
 {% assign bitbucket = site.data.bitbucket.values | default: site.data.bitbucket_cache.values %}

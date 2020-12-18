@@ -1,10 +1,12 @@
 ---
+permalink: /ru
 layout: home
-title: Konev Alexey Sergeevich
-permalink: /
+lang: ru
+redirect_from:
+    - /
 ---
 
-{% assign index_i18n = site.data.i18n[site.lang].pages.index %}
+{% assign index_i18n = site.data.i18n[page.lang].pages.index %}
 
 <div class="basic-info">
     <p>
@@ -15,7 +17,7 @@ permalink: /
 </div>
 
 ### {{ index_i18n.content.about_me }}
-{% assign about_me = site.data.about.about[site.lang] %}
+{% assign about_me = site.data.about.about[page.lang] %}
 {% for criteria in about_me.criteria %}
 
 <div class="criteria">
@@ -30,7 +32,7 @@ permalink: /
 {% endfor %}
 
 ### {{ index_i18n.content.my_jobs }}
-{% for place in site.data.jobs.jobs[site.lang] %}
+{% for place in site.data.jobs.jobs[page.lang] %}
 
 <div class="work-place">
     <h4>
@@ -48,7 +50,7 @@ permalink: /
 {% endfor %}
 
 ### {{ index_i18n.content.education.title }}
-{% for place in site.data.education.education[site.lang] %}
+{% for place in site.data.education.education[page.lang] %}
 <div class="education">
     <h4>
         <strong>{{ place.title }}</strong>, {{ place.city }} - 
@@ -63,7 +65,7 @@ permalink: /
 
 ### {{ index_i18n.content.repositories.title }}
 {% for repo in site.data.repositories %}
-{% assign repo_description = repo.description[site.lang] %}
+{% assign repo_description = repo.description[page.lang] %}
 <div class="repository">
     <h4>{{ repo.title }} - <a href="{{ repo.url }}">{{ repo.url }}</a></h4>
     <span>{{ repo_description }}</span>

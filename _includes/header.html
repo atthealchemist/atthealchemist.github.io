@@ -1,10 +1,7 @@
 <header>
-  {% assign index_i18n = site.data.i18n[site.lang].pages.index %}
-  <div class="language-selector d-block mt-1 text-right">
-    {% for lang in site.languages %}
-      <a class="site-language" href="/{{ lang | prepend: site.baseurl_root }}">{{ lang | capitalize }}</a>
-    {% endfor %}
-  </div>
+<!--  <span>lang: {{page.lang}}</span>-->
+  {% assign index_i18n = site.data.i18n[page.lang].pages.index %}
+  {% include locale.html %}
   <div class="page-title">
     <h1><a href="{{ '/' | absolute_url }}">{{ index_i18n.header.title }}</a></h1>
     <h2>{{ index_i18n.header.description }}</h2>

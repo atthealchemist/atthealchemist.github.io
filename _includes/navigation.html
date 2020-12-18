@@ -1,12 +1,14 @@
 <nav>
-    {% assign nav_i18n = site.data.i18n[site.lang].pages.navigation %}
+    {% assign nav_i18n = site.data.i18n[page.lang].pages.navigation %}
+    {% capture baselang_root %} /{{ page.lang | prepend: site.baseurl_root }}{% endcapture %}
+<!--    <span>lg: {{baselang_root}}</span>-->
     <ul>
-        <li><a href="{{ site.baseurl }}/#about-me">{{ nav_i18n.about_me }}</a></li>
-        <li><a href="{{ site.baseurl }}/#my-jobs">{{ nav_i18n.jobs }}</a></li>
-        <li><a href="{{ site.baseurl }}/#education">{{ nav_i18n.education }}</a></li>
-        <li><a href="{{ site.baseurl }}/#repositories">{{ nav_i18n.repositories }}</a></li>
-        <li><a href="{{ site.baseurl }}/#contact-me">{{ nav_i18n.contacts }}</a></li>
-        <li><a href="{{ site.baseurl }}/#technology-stack">{{ nav_i18n.technology_stack }}</a></li>
-        <li><a href="{{ site.baseurl }}/projects">{{ nav_i18n.projects }}</a></li>
+        <li><a href="{{ baselang_root }}/#about-me">{{ nav_i18n.about_me }}</a></li>
+        <li><a href="{{ baselang_root }}/#my-jobs">{{ nav_i18n.jobs }}</a></li>
+        <li><a href="{{ baselang_root }}/#education">{{ nav_i18n.education }}</a></li>
+        <li><a href="{{ baselang_root }}/#repositories">{{ nav_i18n.repositories }}</a></li>
+        <li><a href="{{ baselang_root }}/#contact-me">{{ nav_i18n.contacts }}</a></li>
+        <li><a href="{{ baselang_root }}/#technology-stack">{{ nav_i18n.technology_stack }}</a></li>
+        <li><a href="{{ baselang_root}}/projects">{{ nav_i18n.projects }}</a></li>
     </ul>
 </nav>

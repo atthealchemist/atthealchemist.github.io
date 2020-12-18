@@ -1,11 +1,11 @@
 <aside>
-    {% assign sidebar_i18n = site.data.i18n[site.lang].pages.index.sidebar %}
+    {% assign sidebar_i18n = site.data.i18n[page.lang].pages.index.sidebar %}
     <div class="photo">
         <h3>{{ sidebar_i18n.photo_section.photo_title }}</h3>
-        <img src="assets/images/actual_photo.jpg" alt="{{ sidebar_i18n.photo_section.photo_title }}">
+        <img src="{{site.baseurl_root}}/assets/images/actual_photo.jpg" alt="{{ sidebar_i18n.photo_section.photo_title }}">
     </div>
     <div id="contact-me" class="contacts">
-        {% assign contacts = site.data.contacts.contacts[site.lang] %}
+        {% assign contacts = site.data.contacts.contacts[page.lang] %}
         <h3>{{ sidebar_i18n.contact_section.contact_title }}</h3>
         <p><span>{{ sidebar_i18n.contact_section.zip_label }}: </span>{{ contacts.zip }}</p>
         <p><span>{{ sidebar_i18n.contact_section.addr_label }}: </span>{{ contacts.address }}</p>
@@ -17,7 +17,7 @@
     <div id="salary-expectations" class="salary">
         <h3>{{ sidebar_i18n.salary_section.salary_title }}</h3>
         <ul>
-            {% for item in site.data.salary.salary[site.lang] %}
+            {% for item in site.data.salary.salary[page.lang] %}
                 <li><strong>{{ item.value }} / {{ item.period }}*</strong> </li>
             {% endfor %}
         </ul>
@@ -29,7 +29,7 @@
         <ul>
             {% assign techs = item.technologies | join: ', ' %}
             <li>
-                <span>{{ item.title[site.lang] }}:</span>
+                <span>{{ item.title[page.lang] }}:</span>
                 <p>{{ techs }}</p>
             </li>
         </ul>
@@ -44,7 +44,7 @@
     <div id="languages" class="languages">
         <h3>{{ sidebar_i18n.lang_section.lang_title }}</h3>
         {% for lang in site.data.languages %}
-            <p><strong>{{ lang.title[site.lang] }}</strong> - <em>{{ lang.level[site.lang] }}</em></p>
+            <p><strong>{{ lang.title[page.lang] }}</strong> - <em>{{ lang.level[page.lang] }}</em></p>
         {% endfor %}
     </div>
 </aside>

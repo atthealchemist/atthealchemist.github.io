@@ -194,7 +194,15 @@ header h2 {
     font-size: xxx-large !important;
 }
 
-.site-language:active {
-    color: red;
-    text-decoration: underline;
+.site-language {
+    opacity: .5;
+}
+
+.site-language:hover {
+    opacity: .75;
+    text-decoration: none;
+}
+
+.site-language:visited {
+    opacity: 1.0;
 }

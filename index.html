@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    window.onload = () => {
+        var userLang = navigator.language;
+        if(userLang.indexOf('-') !== 0) {
+            userLang = userLang.split('-')[0];
+        }
+
+        location.href = '/' + userLang + '/';
+    };
+</script>
+</body>
+</html>
