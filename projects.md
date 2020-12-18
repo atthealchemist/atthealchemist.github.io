@@ -1,15 +1,14 @@
 ---
 layout: page
-language: en
 title: Projects
 permalink: /projects/
 ---
-
-### My Projects
+{% assign projects_i18n = site.data.i18n[site.lang].pages.projects %}
+<h3>{{ projects_i18n.title }}</h3>
 {% assign github = site.data.github | default: site.data.github_cache %}
 {% assign bitbucket = site.data.bitbucket.values | default: site.data.bitbucket_cache.values %}
 
-#### Github [{{ github | size }}]
+<h4>Github [{{ github | size }}]</h4>
 
 <div class="project-grid">
     {% for project in github %}
@@ -29,7 +28,7 @@ permalink: /projects/
 </div>
 
 #### Bitbucket [{{ bitbucket | size }}]
-##### (Legacy)
+##### ({{ projects_i18n.legacy }})
 
 <div class="project-grid">
     {% for project in bitbucket %}
@@ -46,4 +45,4 @@ permalink: /projects/
             </div>
             {% endif %}
     {% endfor %}
-</div>a
+</div>

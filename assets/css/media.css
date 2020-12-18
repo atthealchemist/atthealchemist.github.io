@@ -1,0 +1,14 @@
+@media print {
+
+    h1 {
+        font-size: 42pt !important;
+    }
+
+    nav,
+    header h2,
+    footer,
+    header a.site-language {
+        display: none;
+    }
+
+}

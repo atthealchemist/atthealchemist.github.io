@@ -1,5 +1,8 @@
 stack_full:
-  - title: "pages.index.sidebar.stack_section.stack_groups.group_programming_langs"
+  - title:
+      ru: Языки программирования
+      en: PLs
+      de: PSn
     technologies:
       - Python 3.7+
       - C++11
@@ -9,7 +12,10 @@ stack_full:
       - EcmaScript 6
       - TypeScript
 
-  - title: "pages.index.sidebar.stack_section.stack_groups.group_user_interfaces"
+  - title:
+      ru: Разработка пользовательских интерфейсов
+      en: UIs
+      de: UIs
     technologies:
       - JavaFX
       - WPF
@@ -19,7 +25,10 @@ stack_full:
       - tkinter
       - Electron
 
-  - title: "pages.index.sidebar.stack_section.stack_groups.group_web"
+  - title:
+      ru: Разработка веб-приложений
+      en: Web
+      de: Web
     technologies:
       - Flask
       - Django
@@ -30,7 +39,10 @@ stack_full:
       - .NET MVC 5
       - Jekyll
 
-  - title: "pages.index.sidebar.stack_section.stack_groups.group_servers"
+  - title:
+      ru: Web-серверы
+      en: Servers
+      de: Servers
     technologies:
       - Nginx
       - Tornado
@@ -38,7 +50,10 @@ stack_full:
       - Aiohttp
       - Starlette
 
-  - title: "pages.index.sidebar.stack_section.stack_groups.group_dbs"
+  - title:
+      ru: Базы данных
+      en: DBs
+      de: DBs
     technologies:
       - PostgreSQL 10+
       - MySQL (MariaDB)
@@ -46,12 +61,18 @@ stack_full:
       - Redis
       - Memcached
 
-  - title: "pages.index.sidebar.stack_section.stack_groups.group_mqs"
+  - title:
+      ru: Очереди сообщений (брокеры)
+      en: MQs
+      de: MQs
     technologies:
       - Apache Kafka
       - RabbitMQ (Celery)
 
-  - title: "pages.index.sidebar.stack_section.stack_groups.group_apis"
+  - title:
+      ru: APIs
+      en: APIs
+      de: APIs
     technologies:
       - REST
       - SOAP
@@ -60,19 +81,28 @@ stack_full:
       - XML-RPC
       - JSON-RPC
 
-  - title: "pages.index.sidebar.stack_section.stack_groups.group_frontend"
+  - title:
+      ru: Фронтэнд
+      en: Frontend
+      de: Frontend
     technologies:
       - HTML 5
       - React
       - CSS 3
       - Angular
 
-  - title: "pages.index.sidebar.stack_section.stack_groups.group_ci"
+  - title:
+      ru: CI/CD
+      en: CI/CD
+      de: CI/CD
     technologies:
       - Gitlab CI
       - Github Actions CI
 
-  - title: "pages.index.sidebar.stack_section.stack_groups.group_os"
+  - title:
+      ru: Операционные системы
+      en: OS
+      de: OS
     technologies:
       - Windows 7-10 и Server
       - GNU\Linux Debian 7+
@@ -81,7 +111,10 @@ stack_full:
       - Ubuntu 14+
       - Linux Mint 16+
 
-  - title: "pages.index.sidebar.stack_section.stack_groups.group_mobile"
+  - title:
+      ru: Разработка мобильных приложений
+      en: Mobile
+      de: Mobile
     technologies:
       - Android 4.1 - 5.0 (Java)
 stack_favorite:

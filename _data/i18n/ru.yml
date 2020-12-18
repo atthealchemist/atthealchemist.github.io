@@ -11,7 +11,7 @@ pages:
   index:
     header:
       title: Конев Алексей Сергеевич
-      description: 24 летний разработчик с горящими <span class="color-red">красными</span> глазами
+      description: 24-летний разработчик с горящими <span class="color-red">красными</span> глазами
       sex: Мужчина
       age: 24 года
       work_experience_label: Общий стаж работы в IT

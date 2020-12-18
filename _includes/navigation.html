@@ -1,11 +1,12 @@
 <nav>
+    {% assign nav_i18n = site.data.i18n[site.lang].pages.navigation %}
     <ul>
-        <li><a href="{{ site.baseurl }}/#about-me">{% t pages.navigation.about_me %}</a></li>
-        <li><a href="{{ site.baseurl }}/#my-jobs">{% t pages.navigation.jobs %}</a></li>
-        <li><a href="{{ site.baseurl }}/#education">{% t pages.navigation.education %}</a></li>
-        <li><a href="{{ site.baseurl }}/#repositories">{% t pages.navigation.repositories %}</a></li>
-        <li><a href="{{ site.baseurl }}/#contact-me">{% t pages.navigation.contacts %}</a></li>
-        <li><a href="{{ site.baseurl }}/#technology-stack">{% t pages.navigation.technology_stack %}</a></li>
-        <li><a href="{{ site.baseurl }}/projects">{% t pages.navigation.projects %}</a></li>
+        <li><a href="{{ site.baseurl }}/#about-me">{{ nav_i18n.about_me }}</a></li>
+        <li><a href="{{ site.baseurl }}/#my-jobs">{{ nav_i18n.jobs }}</a></li>
+        <li><a href="{{ site.baseurl }}/#education">{{ nav_i18n.education }}</a></li>
+        <li><a href="{{ site.baseurl }}/#repositories">{{ nav_i18n.repositories }}</a></li>
+        <li><a href="{{ site.baseurl }}/#contact-me">{{ nav_i18n.contacts }}</a></li>
+        <li><a href="{{ site.baseurl }}/#technology-stack">{{ nav_i18n.technology_stack }}</a></li>
+        <li><a href="{{ site.baseurl }}/projects">{{ nav_i18n.projects }}</a></li>
     </ul>
 </nav>

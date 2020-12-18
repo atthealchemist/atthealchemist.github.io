@@ -1,6 +1,12 @@
 - title: Github
   url: https://github.com/atthealchemist
-  description: "pages.index.content.repositories.github.description"
+  description:
+    ru: <strong>Основной репозиторий</strong> - мои домашние и учебные проекты.
+    en: <strong>Primary reposoitory</strong> - mine home- and pet-projects.
+    de: <strong>Primäres Repository</strong> - Maine Home- und Pet-Projekte.
 - title: Bitbucket
   url: https://bitbucket.org/the-alchemist
-  description: "pages.index.content.repositories.bitbucket.description"
+  description:
+    ru: <strong>Старый репозиторий</strong> - мои домашние и учебные проекты.
+    en: <strong>Legacy repository</strong> - mine home- and pet-projects.
+    de: <strong>Vermächtnis repository</strong> - Maine Home- und Pet-Projekte.

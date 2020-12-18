@@ -1,8 +1,26 @@
-- title: pages.index.sidebar.lang_section.lang_ru.title
-  level: pages.index.sidebar.lang_section.lang_ru.level
+- title:
+    ru: Русский
+    en: Russian
+    de: Russische
+  level:
+    ru: Родной
+    en: Native
+    de: Muttersprache
 
-- title: pages.index.sidebar.lang_section.lang_en.title
-  level: pages.index.sidebar.lang_section.lang_en.level
+- title:
+    ru: Английский
+    en: English
+    de: Englisch
+  level:
+    ru: Upper-Intermediate (Pre-advanced)
+    en: Upper-Intermediate (Pre-advanced)
+    de: Upper-Intermediate (Pre-advanced)
 
-- title: pages.index.sidebar.lang_section.lang_de.title
-  level: pages.index.sidebar.lang_section.lang_de.level
+- title:
+    ru: Немецкий
+    en: Deutsch
+    de: Deutsch
+  level:
+    ru: A1
+    en: A1
+    de: A1

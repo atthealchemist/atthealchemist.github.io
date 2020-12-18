@@ -2,37 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d64db84-4531-4f42-b7f1-cb8905fc4788" name="Default Changelist" comment="Increasing project card side padding">
-      <change afterPath="$PROJECT_DIR$/_data/about_de.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_data/about_ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_data/contacts_ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_data/education_ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_data/languages.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_data/repos_ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_data/stack_ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_i18n/de.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_i18n/de/projects/projects.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_i18n/en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_i18n/en/index/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_i18n/en/projects/projects.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_i18n/ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_i18n/ru/index/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_i18n/ru/projects/projects.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/about_en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/about_en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/salary_en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/salary_en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/contacts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/contacts.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/languages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/languages.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/repositories.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/repositories.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/stack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/stack.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i18n/de.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/i18n/de.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i18n/de/index/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i18n/de/projects/projects.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i18n/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/i18n/en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i18n/en/index/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i18n/en/projects/projects.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i18n/ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/i18n/ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i18n/ru/index/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i18n/ru/projects/projects.md" beforeDir="false" afterPath="$PROJECT_DIR$/projects.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/navigation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/de/index/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +57,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -85,11 +77,11 @@
       <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io\_i18n\de" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/_data/internationalization" />
       <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io\_i18n\ru" />
       <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io\_i18n\ru\index" />
       <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io\assets\css" />
-      <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io" />
-      <recent name="C:\Users\mi\WebstormProjects\atthealchemist.github.io\pages\ru" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -107,6 +99,7 @@
       <workItem from="1606737606542" duration="1227000" />
       <workItem from="1606894930698" duration="11872000" />
       <workItem from="1606985417453" duration="10812000" />
+      <workItem from="1608275608837" duration="6437000" />
     </task>
     <task id="LOCAL-00001" summary="Added basic jekyll generated site">
       <created>1605960752988</created>
