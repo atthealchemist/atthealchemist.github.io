@@ -26,6 +26,9 @@ jekyll_get_json:
     json: https://api.bitbucket.org/2.0/repositories/the-alchemist/
     cache: true
 
+include:
+  - pages/
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

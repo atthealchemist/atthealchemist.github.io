@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d64db84-4531-4f42-b7f1-cb8905fc4788" name="Default Changelist" comment="Починил навигацию, локализация работает, флажки вместо букв">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/base.css" afterDir="false" />
+    <list default="true" id="8d64db84-4531-4f42-b7f1-cb8905fc4788" name="Default Changelist" comment="Небольшая стилизация 404">
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +77,7 @@
       <workItem from="1606737606542" duration="1227000" />
       <workItem from="1606894930698" duration="11872000" />
       <workItem from="1606985417453" duration="10812000" />
-      <workItem from="1608275608837" duration="12414000" />
+      <workItem from="1608275608837" duration="12639000" />
     </task>
     <task id="LOCAL-00001" summary="Added basic jekyll generated site">
       <created>1605960752988</created>
@@ -326,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608288456893</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Небольшая стилизация 404">
+      <created>1608289098067</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1608289098067</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +350,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Restoring all site, change the theme" />
     <MESSAGE value="Moving theme contents into site folder" />
     <MESSAGE value="Trying to change site contents" />
     <MESSAGE value="First version of mine CV" />
@@ -370,6 +374,7 @@
     <MESSAGE value="Increasing project card side padding" />
     <MESSAGE value="Убрал multiple-languages плагин&#10;Сделал версию стилей, оптимизированную для печати&#10;Перенёс всю i18n в yml" />
     <MESSAGE value="Починил навигацию, локализация работает, флажки вместо букв" />
-    <option name="LAST_COMMIT_MESSAGE" value="Починил навигацию, локализация работает, флажки вместо букв" />
+    <MESSAGE value="Небольшая стилизация 404" />
+    <option name="LAST_COMMIT_MESSAGE" value="Небольшая стилизация 404" />
   </component>
 </project>
