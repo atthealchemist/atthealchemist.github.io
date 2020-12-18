@@ -206,3 +206,8 @@ header h2 {
 .site-language:visited {
     opacity: 1.0;
 }
+
+.not-found {
+    text-align: center;
+    margin: 2em;
+}
