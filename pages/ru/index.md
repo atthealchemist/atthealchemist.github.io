@@ -1,5 +1,5 @@
 ---
-permalink: /ru
+permalink: /ru/
 layout: home
 lang: ru
 redirect_from:
