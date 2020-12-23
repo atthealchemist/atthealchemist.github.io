@@ -37,7 +37,11 @@ lang: en
         <strong>{{ place.title }}</strong>, {{ place.city }} - 
         <em>{{ place.position }}</em>
     </h4>
-    <p>{{ place.period.from }} - {{ place.period.to }}</p>
+    {% if place.period.from != place.period.to %}
+        <p>{{ place.period.from }} - {{ place.period.to }}</p>
+    {% else %}
+        <p>{{ place.period.to }}</p>
+    {% endif %}
     <ul>
         {% for task in place.tasks %}
             <li>{{ task }}</li>

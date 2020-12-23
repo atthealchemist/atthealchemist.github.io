@@ -56,7 +56,11 @@ redirect_from:
         <strong>{{ place.title }}</strong>, {{ place.city }} - 
         <em>{{ place.specialization }}</em> - <em>{{ place.degree }}</em>
     </h4>
-    <p>{{ place.period.from }} - {{ place.period.to }}</p>
+    {% if place.period.from != place.period.to %}
+        <p>{{ place.period.from }} - {{ place.period.to }}</p>
+    {% else %}
+        <p>{{ place.period.to }}</p>
+    {% endif %}
     {% assign techs = place.graduation_project.technologies | join: ', ' %}
     <p><strong>{{ index_i18n.content.education.graduation_project }}</strong> - {{ place.graduation_project.description }} ({{ techs }})
 </p>
