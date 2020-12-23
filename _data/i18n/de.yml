@@ -57,3 +57,5 @@ pages:
   projects:
     title: Meine Projekte
     legacy: Vermächtnis
+  footer:
+    about: Mit <span class="color-red">❤</span> von Jekyll gemacht

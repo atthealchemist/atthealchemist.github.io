@@ -1,3 +1,4 @@
 <footer class="footer border-top border-gray-light mt-5 pt-3 text-center text-gray">
-    Made with <span class="color-red">❤</span> and Jekyll
+    {% assign footer_i18n = site.data.i18n[page.lang].pages.footer %}
+    {{ footer_i18n.about }}
 </footer>

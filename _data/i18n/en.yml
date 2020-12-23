@@ -57,5 +57,7 @@ pages:
   projects:
     title: Projects
     legacy: Legacy
+  footer:
+    about: Made with <span class="color-red">❤</span> and Jekyll
 
 
