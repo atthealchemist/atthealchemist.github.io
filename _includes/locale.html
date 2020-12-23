@@ -1,6 +1,9 @@
 <div class="language-selector d-block mt-1 text-right">
     {% assign parent = page.url | split: '/' | last %}
+    {% assign lang_i18n = site.data.i18n[page.lang].pages.index.sidebar.lang_section %}
     {% for lang in site.languages %}
+        {% assign lang_prefix = 'lang_' | append: lang %}
+        {% assign lang_title = lang_i18n[lang_prefix].title %}
 
         {% if lang == 'ru' %}
             {% assign flag = '🇷🇺' %}
@@ -11,9 +14,9 @@
         {% endif %}
 
         {% if site.languages contains parent %}
-            <a class="site-language" href="/{{ lang | prepend: site.baseurl_root }}/">{{ flag }}</a>
+            <a title="{{ lang_title }}" class="site-language" href="/{{ lang | prepend: site.baseurl_root }}/">{{ flag }}</a>
         {% else %}
-            <a class="site-language" href="/{{ lang | prepend: site.baseurl_root }}/{{parent}}/">{{ flag }}</a>
+            <a title="{{ lang_title }}" class="site-language" href="/{{ lang | prepend: site.baseurl_root }}/{{parent}}/">{{ flag }}</a>
         {% endif %}
 
     {% endfor %}
