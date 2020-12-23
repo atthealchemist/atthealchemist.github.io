@@ -1,5 +1,6 @@
 @import url('fonts.css');
 @import url('media.css');
+@import url('colors.css');
 
 * {
     margin: 0;
@@ -215,4 +216,10 @@ header h2 {
 .contacts i {
     padding: .5em .5em .5em 0;
     font-size: 1.25em;
+}
+
+.contacts ul {
+    list-style: none;
+    margin-left: -2em;
+    font-size: 1.1em;
 }

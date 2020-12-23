@@ -1,10 +1,7 @@
 icons:
-  zip:
-    category: fas
-    icon: address-card
   address:
     category: fas
-    icon: address-card
+    icon: map-marker-alt
   tel:
     category: fas
     icon: phone-alt
@@ -13,7 +10,7 @@ icons:
     icon: telegram-plane
   mailto:
     category: fas
-    icon: envelope-open-text
+    icon: envelope
   inst:
     category: fab
     icon: instagram

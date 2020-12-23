@@ -36,31 +36,12 @@ pages:
         photo_title: Моя фотография
       contact_section:
         contact_title: Контакты
-        zip_label: Почтовый индекс
-        addr_label: Адрес
-        addr_value: Россия, Московская обл., г. Наро-Фоминск, ул. Войкова, д. 25, кв. 20
-        tel_label: Телефон
-        tg_label: Telegram
-        inst_label: Instagram
-        mailto_label: Почта
       salary_section:
         salary_title: Зарплатные ожидания
         salary_per_day_label: в день
         salary_mark: В связи с ситуацией с короновирусом готов рассмотреть и другие варианты
       stack_section:
         stack_title: Стек технологий
-        stack_groups:
-          group_programming_langs: Языки программирования
-          group_user_interfaces: Разработка пользовательских интерфейсов
-          group_web: Разработка веб-приложений
-          group_servers: Серверы
-          group_dbs: Базы данных
-          group_mqs: Очереди сообщений
-          group_frontend: Фронтэнд
-          group_apis: APIs
-          group_os: Операционные системы
-          group_ci: CI/CD
-          group_mobile: Мобильные приложения
       cert_section:
         cert_title: Сертификаты
       lang_section:
