@@ -6,13 +6,16 @@
     </div>
     <div id="contact-me" class="contacts">
         {% assign contacts = site.data.contacts.contacts[page.lang] %}
+        {% assign icons = site.data.icons.icons %}
         <h3>{{ sidebar_i18n.contact_section.contact_title }}</h3>
-        <p><span>{{ sidebar_i18n.contact_section.zip_label }}: </span>{{ contacts.zip }}</p>
-        <p><span>{{ sidebar_i18n.contact_section.addr_label }}: </span>{{ contacts.address }}</p>
-        <p><span>{{ sidebar_i18n.contact_section.tel_label }}: </span><a href="tel: {{ contacts.tel }}">{{ contacts.tel }}</a></p>
-        <p><span>{{ sidebar_i18n.contact_section.tg_label }}: </span><a href="https://t.me/{{ contacts.tg }}">@{{ contacts.tg }}</a></p>
-        <p><span>{{ sidebar_i18n.contact_section.mailto_label }}: </span><a href="mailto:{{ contacts.mailto }}">{{ contacts.mailto }}</a></p>
-        <p><span>{{ sidebar_i18n.contact_section.inst_label }}: </span><a href="https://instagram.com/{{ contacts.inst }}">{{ contacts.inst }}</a></p>
+        <p><i class="{{ icons.address.category }} fa-{{ icons.address.icon }}"></i>{{ contacts.address }}</p>
+        <p><i class="{{ icons.tel.category }} fa-{{ icons.tel.icon }}"></i><a href="tel: {{ contacts.tel }}">{{ contacts.tel }}</a></p>
+        <p><i class="{{ icons.tg.category }} fa-{{ icons.tg.icon }}"></i><a href="https://t.me/{{ contacts.tg }}">@{{ contacts.tg }}</a></p>
+        <p><i class="{{ icons.mailto.category }} fa-{{ icons.mailto.icon }}"></i><a href="mailto:{{ contacts.mailto }}">{{ contacts.mailto }}</a></p>
+        <p><i class="{{ icons.inst.category }} fa-{{ icons.inst.icon }}"></i><a href="https://instagram.com/{{ contacts.inst }}">{{ contacts.inst }}</a></p>
+        <p><i class="{{ icons.linkedin.category }} fa-{{ icons.linkedin.icon }}"></i><a href="https://linkedin.com/in/{{ contacts.linkedin }}">{{ contacts.linkedin }}</a></p>
+        <p><i class="{{ icons.twitter.category }} fa-{{ icons.twitter.icon }}"></i><a href="https://twitter.com/{{ contacts.twitter }}">{{ contacts.twitter }}</a></p>
+        <p><i class="{{ icons.mastodon.category }} fa-{{ icons.mastodon.icon }}"></i><a href="https://mstdn.com/@{{ contacts.mastodon }}">{{ contacts.mastodon }}</a></p>
     </div>
     <div id="salary-expectations" class="salary">
         <h3>{{ sidebar_i18n.salary_section.salary_title }}</h3>

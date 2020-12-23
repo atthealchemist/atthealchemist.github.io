@@ -1,0 +1,28 @@
+icons:
+  zip:
+    category: fas
+    icon: address-card
+  address:
+    category: fas
+    icon: address-card
+  tel:
+    category: fas
+    icon: phone-alt
+  tg:
+    category: fab
+    icon: telegram-plane
+  mailto:
+    category: fas
+    icon: envelope-open-text
+  inst:
+    category: fab
+    icon: instagram
+  twitter:
+    category: fab
+    icon: twitter
+  mastodon:
+    category: fab
+    icon: mastodon
+  linkedin:
+    category: fab
+    icon: linkedin-in
