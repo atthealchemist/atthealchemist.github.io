@@ -59,4 +59,4 @@ pages:
     title: Мои проекты
     legacy: Устаревшие
   footer:
-    about: Сделано с <span class="color-red">❤</span> на Jekyll
+    about: Сделано с <span class="color-red">❤</span> на <a href="https://jekyllrb.com">Jekyll</a>

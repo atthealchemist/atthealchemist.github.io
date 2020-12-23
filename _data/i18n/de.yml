@@ -58,4 +58,4 @@ pages:
     title: Meine Projekte
     legacy: Vermächtnis
   footer:
-    about: Mit <span class="color-red">❤</span> von Jekyll gemacht
+    about: Mit <span class="color-red">❤</span> von <a href="https://jekyllrb.com">Jekyll</a> gemacht

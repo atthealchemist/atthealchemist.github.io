@@ -223,3 +223,13 @@ header h2 {
     margin-left: -2em;
     font-size: 1.1em;
 }
+
+.footer a {
+    color: #666;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    opacity: .9;
+}

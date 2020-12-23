@@ -58,6 +58,6 @@ pages:
     title: Projects
     legacy: Legacy
   footer:
-    about: Made with <span class="color-red">❤</span> and Jekyll
+    about: Made on <a href="https://jekyllrb.com">Jekyll</a> with <span class="color-red">❤</span>
 
 
