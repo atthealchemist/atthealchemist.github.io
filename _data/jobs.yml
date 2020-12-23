@@ -36,9 +36,9 @@ jobs:
         - Development of transfers service frontend with HTML 5 and Twitter Bootstrap 3.
         - Development of incorporated components using Angular 6, RxJS, TypeScript.
         - Deployment of own instance of OpenStreetMap for inner company usage.
-    - title: Пятница, 13-е
-      position: Программист-разработчик
-      city: Москва
+    - title: Friday, 13-th
+      position: Software developer
+      city: Moscow
       period:
         from: 2017
         to: 2017
