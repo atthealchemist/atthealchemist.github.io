@@ -43,10 +43,10 @@ jobs:
         from: 2017
         to: 2017
       tasks:
-        - Разработал с нуля клиентский интерфейс для системы учета материальных ценностей на JavaFX и ORM Hibernate.
-        - Разработал бэкэнд (Flask + uWSGI + Memcached) и клиентскую часть (JavaFX приложение) системы управления квестами.
-        - Написал фильтр квестов для внутренней системы веб-портала с использованием фреймворка Yii1 и языка программирования PHP 5.6.
-        - Доработал систему бронирования квестов (статус бронирования) на PHP 5.6, Yii1, jQuery, AJAX.
+        - Development of client side of inventory accounting system with JavaFX and Hibernate ORM.
+        - Development of backend (Flask + uWSGI + Memcached) and frontend (JavaFX application) of quest management system.
+        - Development of filtering module for corporate system using Yii1 framework and PHP 5.6.
+        - Enhancements of quest booking system (booking status) with PHP 5.6, Yii1, jQuery, AJAX.
   ru:
     - title: ООО "Робин"
       position: Программист - разработчик
