@@ -23,7 +23,7 @@ pages:
       about_me: Обо мне
       my_jobs: Работа
       education:
-        title: Education
+        title: Образование
         graduation_project: Дипломный проект
       repositories:
         title: Мои репозитории

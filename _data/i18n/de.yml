@@ -22,7 +22,7 @@ pages:
       about_me: Über mich
       my_jobs: Arbeit
       education:
-        title: Education
+        title: Bildung
         graduation_project: Abschlussprojekt
       repositories:
         title: Mein Repositories
