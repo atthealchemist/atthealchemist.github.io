@@ -94,48 +94,50 @@ jobs:
         - Написал фильтр квестов для внутренней системы веб-портала с использованием фреймворка Yii1 и языка программирования PHP 5.6.
         - Доработал систему бронирования квестов (статус бронирования) на PHP 5.6, Yii1, jQuery, AJAX.
   de:
-    - title: ООО "Робин"
-      position: Программист - разработчик
-      city: Москва
+    - title: Robin LLC
+      position: Software Engineer
+      city: Moscow
       period:
         from: 2019
         to: 2020
       tasks:
-        - Разработка Python версии движка, агента и экзекутора RPA платформы.
-        - Написал proxy-сервис для обращения к Apache Kafka через REST API.
-        - Написал сервис RDP-соединений для оркестратора (RDP Manager).
-        - Провел тщательное исследование исходного кода Mozilla Deep Speech, сделал на его основе библиотеку для транскрипции (в обе стороны) текстов в голос и обратно.
-        - Небольшие доработки .NET-версии платформы.
-    - title: ООО "Дефенс Группа"
-      position: Программист Python
-      city: Москва
+        - Development of Python engine, agent and executor of RPA platform.
+        - Writing of Apache Kafka proxy service through REST API.
+        - Writing of Orchestrator's RDP Manager.
+        - Researching in Mozilla Deep Speech, created vice-versa transcription library based on Mozilla Deep Speech.
+        - A little bit of .NET platform enhancements.
+
+    - title: Defence Group LLC
+      position: Python developer
+      city: Moscow
       period:
         from: 2018
         to: 2019
       tasks:
-        - Разработка информационной системы для мониторинга уязвимых баз данных по всему миру.
-        - Разработка небольших модулей для работы с OCR и CV.
-        - Доработка внутрикорпоративных проектов.
-    - title: Хорс 21
-      position: Разработчик C#
-      city: Москва / Сингапур
+        - Development of vulnerable databases across the world information system.
+        - Development of small libraries for working with OCR and CV.
+        - Development of incorporated solutions.
+
+    - title: Horse 21
+      position: C# developer
+      city: Moscow / Singapore
       period:
         from: 2017
         to: 2018
       tasks:
-        - Разработка и интеграция API сервисов бронирования отелей и аренды автомобилей.
-        - Разработка небольшой утилиты для загрузки данных с OpenStreetMap с использованием Python 3.6 и PyQt5.
-        - Разработка фронтэнда сервиса трансферов на HTML 5 и Twitter Bootstrap 3.
-        - Разработка компонентов внутрикорпоративного проекта с использованием Angular 6, RxJS, TypeScript.
-        - Деплой собственного инстанса OpenStreetMap для внутренних целей компании.
-    - title: Пятница, 13-е
-      position: Программист-разработчик
-      city: Москва
+        - Development and integrations of hotel booking and car rental API services.
+        - Development of OpenStreetMap data fetcher using Python 3.6 and PyQt5.
+        - Development of transfers service frontend with HTML 5 and Twitter Bootstrap 3.
+        - Development of incorporated components using Angular 6, RxJS, TypeScript.
+        - Deployment of own instance of OpenStreetMap for inner company usage.
+    - title: Friday, 13-th
+      position: Software developer
+      city: Moscow
       period:
         from: 2017
         to: 2017
       tasks:
-        - Разработал с нуля клиентский интерфейс для системы учета материальных ценностей на JavaFX и ORM Hibernate.
-        - Разработал бэкэнд (Flask + uWSGI + Memcached) и клиентскую часть (JavaFX приложение) системы управления квестами.
-        - Написал фильтр квестов для внутренней системы веб-портала с использованием фреймворка Yii1 и языка программирования PHP 5.6.
-        - Доработал систему бронирования квестов (статус бронирования) на PHP 5.6, Yii1, jQuery, AJAX.
+        - Development of client side of inventory accounting system with JavaFX and Hibernate ORM.
+        - Development of backend (Flask + uWSGI + Memcached) and frontend (JavaFX application) of quest management system.
+        - Development of filtering module for corporate system using Yii1 framework and PHP 5.6.
+        - Enhancements of quest booking system (booking status) with PHP 5.6, Yii1, jQuery, AJAX.
