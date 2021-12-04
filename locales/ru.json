@@ -1,0 +1,20 @@
+{
+    "Home": {
+        "hello": "Привет!",
+        "subtitle": "Раз вы зашли на эту страницу",
+        "description": "значит я вам нужен как..."
+    },
+    "Header": {
+        "title": "Конев Алексей Сергеевич",
+        "description": "{age}-летний разработчик из Наро-Фоминска"
+    },
+    "Technology": {
+        "skills": "Навыки",
+        "abilities": "То, что я умею",
+        "used_in": "Использовал в этих проектах",
+        "experience_value": "свыше {experienceAge} лет"
+    },
+    "Footer": {
+        "made_with": "Сделано с {heart} на"
+    }
+}

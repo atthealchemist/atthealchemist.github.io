@@ -1,0 +1,136 @@
+{
+    "python": [
+        {
+            "title": "FastAPI",
+            "stars": 5,
+            "abilities": [
+                {
+                    "title": "Создание быстрых API - синхронных и асинхронных"
+                },
+                {
+                    "title": "Авторизация API с помощью JWT токенов"
+                },
+                {
+                    "title": "Тестирование API"
+                }
+            ],
+            "projects": [
+                "https://github.com/atthealchemist/lorem.git",
+                "https://github.com/atthealchemist/ipsum.git"
+            ]
+        },
+        {
+            "title": "Pytest",
+            "stars": 4,
+            "abilities": [
+                {
+                    "title": "Unit-тестирование с использованием mock-объектов"
+                },
+                {
+                    "title": "Параметризированное тестирование"
+                }
+            ],
+            "projects": [
+                "https://github.com/atthealchemist/lorem.git",
+                "https://github.com/atthealchemist/ipsum.git"
+            ]
+        },
+        {
+            "title": "Django",
+            "stars": 4,
+            "abilities": [
+                {
+                    "title": "Django REST Framework"
+                },
+                {
+                    "title": "Кастомные фильтры"
+                },
+                {
+                    "title": "Миксины"
+                },
+                {
+                    "title": "Django ORM"
+                }
+            ],
+            "projects": [
+                "https://github.com/atthealchemist/lorem.git",
+                "https://github.com/atthealchemist/ipsum.git"
+            ]
+        },
+        {
+            "title": "attrs",
+            "stars": 3,
+            "abilities": [
+                {
+                    "title": "Создание сущностей"
+                },
+                {
+                    "title": "Кастомные свойства"
+                }
+            ],
+            "projects": [
+                "Usetech projects",
+                "https://github.com/atthealchemist/ipsum.git"
+            ]
+        },
+        {
+            "title": "attrs",
+            "stars": 3,
+            "abilities": [
+                {
+                    "title": "Создание сущностей"
+                },
+                {
+                    "title": "Кастомные свойства"
+                }
+            ],
+            "projects": [
+                "Usetech projects",
+                "https://github.com/atthealchemist/ipsum.git"
+            ]
+        }
+    ],
+    "frontend": [
+        {
+            "title": "React JS",
+            "stars": 5,
+            "abilities": [
+                {
+                    "title": "Создание быстрых API - синхронных и асинхронных"
+                },
+                {
+                    "title": "Авторизация API с помощью JWT токенов"
+                },
+                {
+                    "title": "Тестирование API"
+                }
+            ],
+            "projects": [
+                "https://github.com/atthealchemist/lorem.git",
+                "https://github.com/atthealchemist/ipsum.git"
+            ]
+        },
+        {
+            "title": "Next.js",
+            "stars": 5,
+            "abilities": [
+                {
+                    "title": "Создание быстрых API - синхронных и асинхронных"
+                },
+                {
+                    "title": "Авторизация API с помощью JWT токенов"
+                },
+                {
+                    "title": "Тестирование API"
+                },
+                {
+                    "title": "Тот сайт, на котором вы это читаете - как раз написан на нём :)"
+                }
+            ],
+            "projects": [
+                "https://github.com/atthealchemist/lorem.git",
+                "https://github.com/atthealchemist/ipsum.git"
+            ]
+        }
+    ]
+}

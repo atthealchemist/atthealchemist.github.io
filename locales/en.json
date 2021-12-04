@@ -1,0 +1,20 @@
+{
+    "Home": {
+        "hello": "Привет!",
+        "subtitle": "Раз вы зашли на эту страницу",
+        "description": "значит я вам нужен как..."
+    },
+    "Header": {
+        "title": "Konev Alexey Sergeevich",
+        "description": "{age} y.o. software developer from Naro-Fominsk"
+    },
+    "Technology": {
+        "skills": "Skills",
+        "abilities": "Abilities",
+        "used_in": "Used in",
+        "experience_value": "above {experienceAge} years"
+    },
+    "Footer": {
+        "made_with": "Made with {heart} on"
+    }
+}
